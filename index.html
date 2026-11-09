@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaheem Style | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="index.html" class="logo">Jaheem Style</a>
+      <button
+        class="menu-btn"
+        aria-expanded="false"
+        aria-label="open menu"
+      ></button>
+      <nav class="nav">
+        <a href="index.html#about">About</a>
+        <a href="index.html#Projects">Projects</a>
+        <a href="index.html#Contact">Contact</a>
+        <a href="dashboard.html#">Dashboard</a>
+        <button id="theme-btn">Dark mode</button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>I'm Jaheem D Style</h1>
+        <p>
+          Computing IT student at the University of Technology, Learning web
+          development, networking and more.
+        </p>
+        <a href="#projects" class="btn">See my work</a>
+      </section>
+      <section id="about me">
+        <h2>About me</h2>
+        <p>2-3 sentences to be added about me...</p>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Networking</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="filter"></div>
+        <div class="cards" id="project-list">
+          <article class="card">
+            <h3>This portfolio</h3>
+            <p>My personal site, bult from scratch</p>
+          </article>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form" novalidate>
+          <label for="name">Name:</label>
+          <input type="text" id="name" />
+          <label for="email">Email:</label>
+          <input type="email" id="email" />
+          <label for="message">Message:</label>
+          <textarea id="message" rows="4"></textarea>
+          <button type="submit">Send Message</button>
+          <p id="form-status"></p>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>© Jaheem Style <a href="https://github.com/Someone18019">Github</a></p>
+    </footer>
+  </body>
+</html>
